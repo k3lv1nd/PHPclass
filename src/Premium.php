@@ -27,6 +27,17 @@ class Premium implements customer
     {
         return $this->type;
     }
+    public function getName(){
+        return $this->name;
+    }
+    public function getId(){
+        return $this->id;
+
+    }
+    public function getLocation()
+    {
+        return $this->type;
+    }
 }
 
 ?>
